@@ -1,14 +1,4 @@
 # Persona3 User Behavior Analysis
-
-pandas-user-persona-analysis/
-├── analysis.py
-├── README.md
-├── questions.md
-├── data/
-│   ├── persona3.csv
-│   └── cleaned_persona3.csv
-└── outputs/
-    └── summary.xlsx
     
 This project performs an end-to-end user behavior analysis using pandas.
 The dataset represents synthetic user data including country, device type,

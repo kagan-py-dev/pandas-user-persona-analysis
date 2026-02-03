@@ -6,7 +6,7 @@ gender, age, and spending information.
 
 ## Dataset
 - Name: persona3.csv
-- Records: 1000
+- Number of Records: 1000
 - Type: Synthetic user data
 - Format: CSV
 
@@ -19,8 +19,23 @@ gender, age, and spending information.
 ## Analysis Highlights
 - Average spending by country
 - Average age by device type
-- User counts by gender and by country-gender combinations
+- User counts by gender
+- User distribution by country and gender
 - Spending statistics by age and age groups
-- Identification of the age with the highest average spending
+- Identification of the age group with the highest average spending
 
 ## Project Structure
+
+
+## Outputs
+- Cleaned dataset: `data/cleaned_persona3.csv`
+- Analysis summary: `outputs/summary.xlsx` (multi-sheet Excel file)
+
+## Tools Used
+- Python
+- Pandas
+
+## Notes
+Analysis questions are defined in `questions.md`.
+Answers and insights are provided through the analysis code in `analysis.py`
+and the exported Excel summary file.
